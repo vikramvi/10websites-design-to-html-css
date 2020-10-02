@@ -39,3 +39,24 @@ a {
   color: #026e78;
   font-weight: bold;
 }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li a {
+  background-color: #2d99a4;
+  padding: 1rem 2rem;
+}
+
+nav a.active {
+  background-color: white;
+  color: #026e78;
+}
+
+nav a.highlight {
+  background-color: #026e78;
+  color: white;
+}
