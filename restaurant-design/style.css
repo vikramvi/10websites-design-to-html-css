@@ -24,20 +24,26 @@ header {
   padding: 1rem;
 }
 
+.logo {
+  color: #026e78;
+  font-weight: bold;
+}
+
+/* nav bar styling START */
+
 .pre-nav {
   font-size: 2rem;
   display: flex;
   justify-content: space-between;
 }
 
+nav {
+  padding: 0.5rem 0;
+}
+
 a {
   color: white;
   text-decoration: none;
-}
-
-.logo {
-  color: #026e78;
-  font-weight: bold;
 }
 
 nav ul {
@@ -46,17 +52,30 @@ nav ul {
   display: flex;
 }
 
+nav li {
+  flex: 1;
+}
+
 nav li a {
   background-color: #2d99a4;
   padding: 1rem 2rem;
+  display: block;
+  text-align: center;
 }
 
 nav a.active {
   background-color: white;
   color: #026e78;
+  font-weight: bold;
 }
 
 nav a.highlight {
   background-color: #026e78;
   color: white;
 }
+
+nav a:hover {
+  opacity: 0.9;
+}
+
+/* nav bar styling END */
