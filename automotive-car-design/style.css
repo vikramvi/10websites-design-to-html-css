@@ -39,3 +39,51 @@ nav li a {
   text-decoration: none;
   padding: 1rem;
 }
+
+nav .logo {
+  font-size: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1000px;
+}
+
+.highlight {
+  background-color: #00c2ff;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.content {
+  margin: auto;
+}
+
+/* footer styling  start */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer strong {
+  color: #00c2ff;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* footer styling  end */
