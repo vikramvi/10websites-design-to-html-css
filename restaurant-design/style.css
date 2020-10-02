@@ -8,3 +8,34 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
+
+header {
+  background-image: url("Meal_Plate_Baba_Ganoush_Hummus_Stir_Fried_Vegetables_Falafel_Pita_Bread_Tzatziki-1.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.pre-nav {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  color: #026e78;
+  font-weight: bold;
+}
