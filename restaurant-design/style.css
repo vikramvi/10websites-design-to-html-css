@@ -13,7 +13,7 @@ header {
   background-image: url("Meal_Plate_Baba_Ganoush_Hummus_Stir_Fried_Vegetables_Falafel_Pita_Bread_Tzatziki-1.jpg");
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   min-height: 100vh;
 }
 
@@ -35,6 +35,7 @@ header {
   font-size: 2rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav {
@@ -50,10 +51,11 @@ nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 nav li {
-  flex: 1;
+  flex: 1 auto;
 }
 
 nav li a {
@@ -77,5 +79,35 @@ nav a.highlight {
 nav a:hover {
   opacity: 0.9;
 }
-
 /* nav bar styling END */
+
+/* content styling START */
+.content {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  align-items: flex-start;
+  margin-top: 5rem;
+}
+
+.content h1 {
+  background-color: #026e78;
+  color: white;
+  display: inline-block;
+  padding: 1rem;
+  font-weight: 200;
+}
+
+.white-link {
+  background-color: #fff;
+  color: #2d99a4;
+  padding: 1rem;
+}
+
+.teal-link {
+  background-color: #2d99a4;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+/* content styling END */
