@@ -111,3 +111,16 @@ nav a:hover {
   margin-top: 2rem;
 }
 /* content styling END */
+
+/* Responsive Web Design START */
+@media screen and (max-width: 768px) {
+  .pre-nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content {
+    font-size: 1.5rem;
+  }
+}
+/* Responsive Web Design END */
